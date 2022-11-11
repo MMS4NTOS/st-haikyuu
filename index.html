@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 07
+    </title>
+</head>
+
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo"
+            alt="">
+    <div class="container">
+      
+        <h1 class="page-title"> Super Trunfo  <br>   <img class="haikyuu" src= 'https://logosmarcas.net/wp-content/uploads/2021/09/Haikyuu-Logo.png'></h1> 
+         <audio id="player" controls="controls" loop>
+        <source src="https://ia600702.us.archive.org/4/items/HaikyuuS3/02.%20The%20Battle%20of%20Concepts.mp3">
+        Your browser does not support the audio element.
+      </audio>   <br>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear Time</button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+           <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina"></div>
+                </div>
+            </div>
+            <div class="opcoes" id="opcoes"></div> <br><br>
+            <div id="imagem"> </div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+            <div class="placar" id="resultado">
+              
+            </div> 
+    
+        </form>
+    </div>
+  <button type="submit" onclick="Reiniciar()" class="zerar">Reiniciar</button>
+</body>
+
+</html>
+<script src="./main.js"></script>
+<link rel="stylesheet" href="./style.css">
